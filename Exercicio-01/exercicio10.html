@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio-10</title>
+</head>
+<body>
+
+    <!-- 10) Crie um programa para saber se o número digitado pelo usuário é um número primo. -->
+
+    <script>
+
+        let numero = parseInt(prompt("Digite um número: "));
+        let divisor = 2;
+
+        while(numero % divisor !=0)divisor++;
+
+        if(numero == divisor){
+            console.log("O número é primo")
+        } else if(numero != divisor){
+            console.log("O número não é primo")
+        }
+
+    </script>
+    
+</body>
+</html>

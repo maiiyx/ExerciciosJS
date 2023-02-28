@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio-04</title>
+</head>
+<body>
+
+    <!-- 04) Após receber dia e mês, informe qual 
+         o signo correspondente a data informada. -->
+
+    <script>
+
+        let nome, mesNascimento, diaNascimento
+        nome = prompt("Digite o seu nome: ")
+        mesNascimento = parseInt(prompt("Digite seu mês de nascimento em número: "))
+        diaNascimento = parseInt(prompt("Digite seu dia de nascimento: "))
+
+        var mesJaneiro = ("Capricornio");
+        var mesFevereiro = ("Aquario");
+        var mesMarco = ("Peixes");
+        var mesAbril = ("Aries");
+        var mesMaio = ("Touro");
+        var mesJunho = ("Gemeos");
+        var mesJulho = ("Cancer");
+        var mesAgosto = ("Leao");
+        var mesSetembro = ("Virgem");
+        var mesOutubro = ("Libra");
+        var mesNovembro = ("Escorpiao");
+        var mesDezembro = ("Sagitario");
+
+        var mesDoSigno = 0;
+        var ano = 12;
+
+
+        if( mesNascimento == 1 && diaNascimento <= 19 ){
+            console.log("Seu signo é " + mesJaneiro)
+        }
+        else if(mesNascimento == 2 && diaNascimento <= 18){
+            console.log("Seu signo é " + mesFevereiro)
+        }
+        else if(mesNascimento == 3 && diaNascimento <= 20){
+            console.log("Seu signo é " + mesMarco)
+        }
+        else if(mesNascimento == 4 && diaNascimento <= 19){
+            console.log("Seu signo é " + mesAbril)
+        }
+        else if(mesNascimento == 5 && diaNascimento <= 21){
+            console.log("Seu signo é " + mesMaio)
+        }
+        else if(mesNascimento == 6 && diaNascimento <= 20){
+            console.log("Seu signo é " + mesJunho)
+        }
+        else if(mesNascimento == 7 && diaNascimento <= 22){
+            console.log("Seu signo é " + mesJulho)
+        }
+        else if(mesNascimento == 8 && diaNascimento <= 22){
+            console.log("Seu signo é " + mesAgosto)
+        }
+        else if(mesNascimento == 9 && diaNascimento <= 22){
+            console.log("Seu signo é " + mesSetembro)
+        }
+        else if(mesNascimento == 10 && diaNascimento <= 22){
+            console.log("Seu signo é " + mesOutubro)
+        }
+        else if(mesNascimento == 11 && diaNascimento <= 21){
+            console.log("Seu signo é " + mesNovembro)
+        }
+        else if(mesNascimento == 12 && diaNascimento <= 21){
+            console.log("Seu signo é " + mesDezembro)
+        }
+    
+
+    </script>
+    
+</body>
+</html>
